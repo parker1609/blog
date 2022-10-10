@@ -1,5 +1,5 @@
 baseURL = "https://parker1609.github.io/"
-title = "ExampleSite"
+title = "Parker Blog"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -15,8 +15,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
+title = "Parker Blog"
+description = "Here is parker blog."
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -47,7 +47,7 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Home"
+  text = "파커 블로그"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
@@ -72,17 +72,17 @@ tocopen = false
   Title = "Hi there 👋"
   Content = "Welcome to my blog"
 
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
+#   [[params.socialIcons]]
+#   name = "twitter"
+#   url = "https://twitter.com/"
 
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+#   [[params.socialIcons]]
+#   name = "stackoverflow"
+#   url = "https://stackoverflow.com"
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/parker1609"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -93,24 +93,24 @@ SiteVerificationTag = "XYZabc"
 [params.analytics.yandex]
 SiteVerificationTag = "XYZabc"
 
-  [params.cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+#   [params.cover]
+#   hidden = true
+#   hiddenInList = true
+#   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/parker1609/blog/tree/main/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
-  [params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1_000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = [ "title", "permalink", "summary", "content" ]
+#   [params.fuseOpts]
+#   isCaseSensitive = false
+#   shouldSort = true
+#   location = 0
+#   distance = 1_000
+#   threshold = 0.4
+#   minMatchCharLength = 0
+#   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
 identifier = "categories"
